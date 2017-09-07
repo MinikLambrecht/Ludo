@@ -10,7 +10,6 @@ namespace Ludo
         private readonly string name;
         private readonly string PID;
         private readonly string TID;
-        string kaj;
         private GameColor color;
         private Token[] tokens = new Token[4];
 
