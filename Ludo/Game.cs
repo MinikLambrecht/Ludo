@@ -23,7 +23,7 @@ namespace Ludo
             Console.WriteLine("Welcome to Ludo");
             SetNumberOfPlayers();
             CreatePlayers();
-            ShowPlayers();            
+            ShowPlayers();
             Console.ReadKey();
         }
 
