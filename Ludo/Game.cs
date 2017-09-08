@@ -15,15 +15,12 @@ namespace Ludo
         public Game()
         {
             MainMenu();
-        }
-
-        
+        }        
 
         // Create MainMenu
         private void MainMenu()
         {
-            string m1 = "*Welcome to Ludo*" + "\n" + "*****************";
-            Console.WriteLine(String.Format("{0," + ((Console.WindowWidth / 2) + (m1.Length / 2)) + "}", m1));
+            Console.WriteLine("Welcome to Ludo");
             SetNumberOfPlayers();
             CreatePlayers();
             ShowPlayers();            
